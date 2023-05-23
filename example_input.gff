@@ -1,0 +1,100 @@
+##gff-version 3
+##sequence-region   CM046895.1 1 284646
+##sequence-region   CM046896.1 1 360349
+##sequence-region   CM046897.1 1 374730
+##sequence-region   CM046898.1 1 435506
+##sequence-region   CM046899.1 1 459675
+##sequence-region   CM046900.1 1 499601
+##sequence-region   CM046901.1 1 581002
+##sequence-region   CM046902.1 1 1688018
+##sequence-region   CM046903.1 1 539150
+##sequence-region   CM046904.1 1 545184
+##sequence-region   CM046905.1 1 567791
+##sequence-region   CM046906.1 1 519912
+##sequence-region   CM046907.1 1 610526
+##sequence-region   CM046908.1 1 619973
+##sequence-region   CM046909.1 1 582501
+##sequence-region   CM046910.1 1 689378
+##sequence-region   CM046911.1 1 661069
+##sequence-region   CM046912.1 1 699909
+##sequence-region   CM046913.1 1 678041
+##sequence-region   CM046914.1 1 3400091
+##sequence-region   CM046915.1 1 738754
+##sequence-region   CM046916.1 1 718750
+##sequence-region   CM046917.1 1 746902
+##sequence-region   CM046918.1 1 831148
+##sequence-region   CM046919.1 1 899317
+##sequence-region   CM046920.1 1 1035646
+##sequence-region   CM046921.1 1 1069554
+##sequence-region   CM046922.1 1 1142017
+##sequence-region   CM046923.1 1 1330138
+##sequence-region   CM046924.1 1 1483778
+##sequence-region   CM046925.1 1 1512673
+##sequence-region   CM046926.1 1 1434409
+##sequence-region   CM046927.1 1 1669896
+##sequence-region   CM046928.1 1 1980469
+##sequence-region   CM046929.1 1 18137
+##sequence-region   JANCRF010000036.1 1 35235
+##sequence-region   JANCRF010000037.1 1 28009
+##sequence-region   JANCRF010000038.1 1 23924
+##sequence-region   JANCRF010000039.1 1 23428
+##sequence-region   JANCRF010000040.1 1 21056
+##sequence-region   JANCRF010000041.1 1 20068
+##sequence-region   JANCRF010000042.1 1 19336
+##sequence-region   JANCRF010000043.1 1 18177
+##sequence-region   JANCRF010000044.1 1 16272
+##sequence-region   JANCRF010000045.1 1 24009
+##sequence-region   JANCRF010000046.1 1 14764
+##sequence-region   JANCRF010000047.1 1 14367
+##sequence-region   JANCRF010000048.1 1 13371
+##sequence-region   JANCRF010000049.1 1 12936
+##sequence-region   JANCRF010000050.1 1 12829
+##sequence-region   JANCRF010000051.1 1 12024
+##sequence-region   JANCRF010000052.1 1 11908
+##sequence-region   JANCRF010000053.1 1 11807
+##sequence-region   JANCRF010000054.1 1 11547
+##sequence-region   JANCRF010000055.1 1 10882
+##sequence-region   JANCRF010000056.1 1 10881
+##sequence-region   JANCRF010000057.1 1 10862
+##sequence-region   JANCRF010000058.1 1 10760
+##sequence-region   JANCRF010000059.1 1 10499
+##sequence-region   JANCRF010000060.1 1 10331
+##sequence-region   JANCRF010000061.1 1 9199
+##sequence-region   JANCRF010000062.1 1 8984
+##sequence-region   JANCRF010000063.1 1 8096
+##sequence-region   JANCRF010000064.1 1 8030
+##sequence-region   JANCRF010000065.1 1 7941
+##sequence-region   JANCRF010000066.1 1 7110
+##sequence-region   JANCRF010000067.1 1 11375
+##sequence-region   JANCRF010000068.1 1 6912
+##sequence-region   JANCRF010000069.1 1 6885
+##sequence-region   JANCRF010000070.1 1 6873
+##sequence-region   JANCRF010000071.1 1 6825
+##sequence-region   JANCRF010000072.1 1 6314
+##sequence-region   JANCRF010000073.1 1 5872
+##sequence-region   JANCRF010000074.1 1 5844
+##sequence-region   JANCRF010000075.1 1 3440
+##sequence-region   JANCRF010000076.1 1 1589
+##sequence-region   JANCRF010000077.1 1 1173
+CM046895.1	.	contig	1	175030	.	+	.	Name=CM046895.1_CTG000001
+CM046895.1	AUGUSTUS	gene	1465	2469	1	-	.	ID=LAMAPH8_000005000
+CM046895.1	AUGUSTUS	mRNA	1465	2469	1	-	.	ID=LAMAPH8_000005000.1;Parent=LAMAPH8_000005000
+CM046895.1	AUGUSTUS	CDS	1465	2469	1	-	0	ID=LAMAPH8_000005000.1:CDS:1;Parent=LAMAPH8_000005000.1
+###
+CM046895.1	.	polypeptide	1465	2469	.	-	.	ID=LAMAPH8_000005000.1:pep;Derives_from=LAMAPH8_000005000.1;orthologous_to=LAMA_000025900.1;ortholog_cluster=OG0000461;product=term%3DProtein of unknown function (DUF2946)%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LAMA_000025900.1
+CM046895.1	Pfam	protein_match	2215	2466	.	-	.	Parent=LAMAPH8_000005000.1:pep;Name=PF11162;signature_desc=Protein of unknown function (DUF2946)
+###
+CM046895.1	AUGUSTUS	gene	3554	5179	1	-	.	ID=LAMAPH8_000005100
+CM046895.1	AUGUSTUS	mRNA	3554	5179	1	-	.	ID=LAMAPH8_000005100.1;Parent=LAMAPH8_000005100
+CM046895.1	AUGUSTUS	CDS	3554	5179	1	-	0	ID=LAMAPH8_000005100.1:CDS:1;Parent=LAMAPH8_000005100.1
+###
+CM046895.1	.	polypeptide	3554	5179	.	-	.	ID=LAMAPH8_000005100.1:pep;Derives_from=LAMAPH8_000005100.1;orthologous_to=LAMA_000026000.1;ortholog_cluster=OG0000462;product=term%3DEndonuclease/Exonuclease/phosphatase family%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LAMA_000026000.1
+CM046895.1	Pfam	protein_match	3686	4741	.	-	.	Parent=LAMAPH8_000005100.1:pep;Name=PF03372;signature_desc=Endonuclease/Exonuclease/phosphatase family
+###
+CM046895.1	AUGUSTUS	gene	6708	8720	1	-	.	ID=LAMAPH8_000005200
+CM046895.1	AUGUSTUS	mRNA	6708	8720	1	-	.	ID=LAMAPH8_000005200.1;Parent=LAMAPH8_000005200
+CM046895.1	AUGUSTUS	CDS	6708	8720	1	-	0	ID=LAMAPH8_000005200.1:CDS:1;Parent=LAMAPH8_000005200.1
+###
+CM046895.1	.	polypeptide	6708	8720	.	-	.	ID=LAMAPH8_000005200.1:pep;Derives_from=LAMAPH8_000005200.1;orthologous_to=LAMAPH8_000206800.1,LAMAPH8_000480000.1,LAMA_000026100.1,LAMA_000209000.1,LAMA_000460000.1;ortholog_cluster=OG0000047;product=term%3DMicrotubule binding/Kinesin motor domain containing protein%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LAMA_000460000.1%3Bis_preferred%3Dtrue,term%3DKinesin motor domain/Microtubule binding%2C putative%3Bevidence%3DIEA%3Bwith%3DGeneDB:LAMA_000026100.1|GeneDB:LAMA_000209000.1%3Brank%3D1;Ontology_term=GO:0007018,GO:0008017,GO:0003777,GO:0005524
+CM046895.1	Pfam	protein_match	7383	8318	.	-	.	Parent=LAMAPH8_000005200.1:pep;Name=PF00225;signature_desc=Kinesin motor domain;Ontology_term=GO:0003777,GO:0005524,GO:0008017,GO:0007018
+CM046895.1	Pfam	protein_match	7908	8354	.	-	.	Parent=LAMAPH8_000005200.1:pep;Name=PF16796;signature_desc=Microtubule binding
