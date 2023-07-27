@@ -161,14 +161,14 @@ def main():
     parser.add_argument('--gff', help='path of input Liftoff GFF3 file', type=str, required=True )
     parser.add_argument('--out', help=f'path of output GFF3 file sqlite db (optional, default={default_sqlite})', type=str, required=False, default=default_sqlite )
     parser.add_argument('--seqstats', help=f'path of output file of per sequence statistics (default={default_seqstats})', type=str, required=False, default=default_seqstats )
-    parser.add_argument('--summary ', help=f'path of output file of per genome statistics (default={default_summarystats})', type=str, required=False, default=default_summarystats )
+    parser.add_argument('--summary', help=f'path of output file of per genome statistics (default={default_summarystats})', type=str, required=False, default=default_summarystats )
     args = parser.parse_args()
     
     input = args.gff
     dbname = args.out
     seqstats_file = args.seqstats
     summary_stats_file = args.summary
-    db = gffutils.create_db(input,dbname, force=True, keep_order=True)
+    db = gffutils.create_db(input,dbname, force=True, keep_order=True, merge_strategy="create_unique")
 
     gene_ft = ['ncRNA_gene','protein_coding_gene','pseudogene']
     attr_stats = getAttributeStats(db, gene_ft)
